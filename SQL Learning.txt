@@ -1,0 +1,48 @@
+Select Salary over (order by salary ROWS unbounded preceeding unbounded following) as SAL from table
+
+Select *, ROWNUMBER() OVER( PARTITION BY ID ORDER BY ID) AS NEW from TABLE
+
+ORDER - From Where Group By Having Select Order by Limit
+
+All selected columns must be included in Group by clause for it to work except Aggregate
+Aggregate filtering done only using Having clause, Having clause is slow
+Where can be used before - Where in etc
+
+Select *, Case (Column)
+          when Column ='This' then 'Blah'
+	  else 'Blah1'
+	  end as Something
+From table	
+
+CREATE TRIGGER TRIGGERNAME ON TABLE 
+AFTER INSERT, DELETE, UPDATE
+
+BEGIN
+
+END
+
+VIEWS - For NON USERS TO SEE DATA
+
+SINGLE LINE AND MULTILINE FUNCTIONS, RETURNING TABLE FOR MULTIPLE VALUES
+
+CURSORS - ROW BY ROW TRANSFORMATIONS
+
+STORED PROCEDURES
+
+WHILE LOOP
+
+IF ELSE
+
+DECLARE @A1 INT
+
+SET
+
+
+
+
+WITH CTE (A1, A2)
+
+AS
+
+SELECT Dash1, Dash2 from Table
+
